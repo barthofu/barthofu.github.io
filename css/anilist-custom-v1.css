@@ -1,0 +1,862 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Patrick+Hand&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Zilla+Slab+Highlight:wght@400;700&display=swap');
+
+
+body {
+    overflow: overlay;
+    background: linear-gradient(rgb(var(--color-background),0.8),rgb(var(--color-background),0.8)), url( https://images-ext-1.discordapp.net/external/iH-V28SVgaAQGuuKX4iWKLnkoF3Utb7C-PBHBjWSEE8/https/static.wixstatic.com/media/32916e_7a7f30ffe2984e5e9cea5aafe85bf2bb~mv2_d_2560_1440_s_2.jpg/v1/fill/w_1600%2Ch_900%2Cal_c%2Cq_90/file.jpg) center/100% fixed !important;
+	/* background-image: url(https://imgur.com/vypgapV.png); */
+	box-shadow: inset 0 130px 100px rgba(0,0,0,0.4);
+}
+/* Background images :
+
+==== GIFs ====
+- kids fireworks : https://cdn.discordapp.com/attachments/451467574690054145/739101213496442920/2019-12-31_00_31_04_GMT_tumblr_pxu4j8FmEx1we9f2ro1_r1_1280.gif
+- traditional shop : https://cdn.discordapp.com/attachments/451467574690054145/739100918083223592/2019-02-10_16_00_22_GMT_tumblr_pltadaoEuk1we9f2ro1_r3_1280.gif
+- girl with roses : https://cdn.discordapp.com/attachments/451467574690054145/739096288410468382/2018-09-29_16_01_35_GMT_tumblr_pfegryAiNU1we9f2ro1_1280.gif
+- chill & coding : https://files.catbox.moe/rfwp5b.gif
+- classroom : https://cutewallpaper.org/21/anime-classroom-background/ArtStation-Japanese-class-Bogdan-mB0sco.gif
+- raining room : https://i.pinimg.com/originals/20/70/f8/2070f812d6a581d5782c2df2f13165e8.gif
+- steins;gate : https://66.media.tumblr.com/8bbc0100479eab9ecda1adb51ef52bff/tumblr_pjtf7tKfsB1v286lxo1_1280.gif
+- city at night : https://archive-media-0.nyafuu.org/wg/image/1429/63/1429630994247.gif
+- water : https://i.imgur.com/8umC8xO.gif
+- sailor moon : https://wallpaperaccess.com/full/1313262.gif
+- akira's corridors : https://gifimage.net/wp-content/uploads/2018/10/anime-lofi-gif-3.gif
+- your name's comet : https://i.pinimg.com/originals/09/24/4c/09244c7f7dd4d17b0484370f32db6641.gif
+- sakura : https://i.pinimg.com/originals/96/3d/e0/963de0b53d66f66591c88e8fce037d13.gif
+- FIIIIIRE : https://www.rom-game.fr/multimedia/news/130503_lastblade2.gif
+
+
+===== PICs =====
+- space : https://imgur.com/vypgapV.png
+- alone : https://cdn.discordapp.com/attachments/572856985469321245/622852405649735680/alone-3840x1920-minimal-4k-9105.jpg
+- paint : https://cdn.discordapp.com/attachments/568553846314369026/572173947509145600/Fond_Ecran_Peinture_A_Huile.png
+- shinobu kocho 1 : https://cdn.discordapp.com/attachments/568553846314369026/622767916659769344/shinobu-kocho-insect-pillar-katana-butterflies-kimitsu-no-yaiba-anime-girl-uhdpaper.com-4K-3.999.jpg
+- shinobu kocho 2 : https://cdn.discordapp.com/attachments/451467574690054145/743043250109022248/82177815_p0_master1200_1.png
+- dead cells : https://www.jeuxvideo24.com/wp-content/uploads/2018/08/test-deadcells.jpg
+- girl and comet : https://images-ext-1.discordapp.net/external/iH-V28SVgaAQGuuKX4iWKLnkoF3Utb7C-PBHBjWSEE8/https/static.wixstatic.com/media/32916e_7a7f30ffe2984e5e9cea5aafe85bf2bb~mv2_d_2560_1440_s_2.jpg/v1/fill/w_1600%2Ch_900%2Cal_c%2Cq_90/file.jpg
+- japanese traditional sheet 1 : https://wallpaperstock.net/japanese-print_wallpapers_39605_1366x768.jpg
+- japanese traditional sheet 2 : https://wallpaperaccess.com/full/423253.jpg
+- japanese traditional sheet 3 : https://eskipaper.com/images/japanese-art-4.jpg
+- japanese temple : https://wallpapershome.com/images/wallpapers/japan-1920x1080-scenery-oriental-4k-5k-18609.jpg 
+- mirai on a paper plane : https://cdn.discordapp.com/attachments/543552036827037706/742697640147550268/illust_79713014_20200811_125309.png
+- rain and ombrella : https://cdn.discordapp.com/attachments/681523223724425369/725881371498643486/illust_72055179_20200625_215950.jpg
+- sunset girl : https://media.discordapp.net/attachments/451467574690054145/743043248427106354/vtoySiv_2.png
+- lain (cyberpunk style) : https://cdn.discordapp.com/attachments/451467574690054145/743043249354047558/IIHv6yH.jpg
+- evangelion : https://cdn.discordapp.com/attachments/451467574690054145/743043276906692648/4C1_1.jpg
+- tomoyo (kimetsu no yaiba) : https://cdn.discordapp.com/attachments/451467574690054145/743043277208420412/002_sEuxnx3.png
+*/
+
+
+.bar-chart-wrap,
+.ps-container,
+.line-chart-wrap,
+.pie-chart {
+    background: transparent !important;
+}
+
+.stat-card,
+.relations-wrap {
+    background: rgba(0,0,0,0.2) !important;
+    box-shadow: 10px 10px 10px rgba(0,0,0, 0.5) !important;
+}
+
+
+
+                                        /* –––––––––––––– Effects –––––––––––––– */
+
+    /* =========== Pop-up effect */
+
+/* misc */
+
+.activity-entry[data-v-5e514b1e] {
+    transform: scale(1);
+    transition: 0.3s linear;
+}
+.activity-entry[data-v-5e514b1e]:hover {
+    transform: scale(1.05)
+}
+.medialist.cards .entry-card { transform: scale(1); transition: 0.1s; }
+.medialist.cards .entry-card:hover { transform: scale(1.04); }
+
+/* favorites */
+.favourites.preview .favourites-wrap .favourite[data-v-45543a61],
+.favourites.preview .favourites-wrap>div[data-v-45543a61] {
+    /*border: solid 3px rgb(0, 0, 0);*/
+    transform: scale(1);
+    transition: 0.3s;
+    overflow: hidden;
+}
+.favourites.preview .favourites-wrap .favourite[data-v-45543a61]:hover,
+.favourites.preview .favourites-wrap>div[data-v-45543a61]:hover { transform: scale(1.2); }
+
+
+    /* =========== Underline effect */
+.nav .link[data-v-5445dac8]::after {
+    content: "";
+	display: block;
+	width: 0px;
+	height: 2px;
+	background-color: purple;
+	position: relative;
+	top: 2px;
+	transition: width 0.3s linear;
+}
+.nav .link[data-v-5445dac8]:hover::after { width: 100%; }
+
+    /* =========== Recolor 
+
+/* menu item */
+.el-dropdown-menu__item { transition: 0.2s; }
+/* menu item hover */
+.el-dropdown-menu__item:focus,
+.el-dropdown-menu__item:not(.is-disabled):hover { background-color: rgba(176, 64, 249, 0.7); }
+
+
+
+
+
+                                        /* ––––––––––– Modifications ––––––––––– */
+
+
+
+    /* ======= Hide */
+
+/* Stats footer */
+.footer[data-v-815ccddc] {
+    height: 0;
+    width: 0;
+}
+
+    /* ======= Disposition */
+
+/* Banner height */
+.banner[data-v-5445dac8] {
+    height: 250px;
+}
+/* Nav header */
+.container[data-v-5445dac8] {
+    display:flex;
+    justify-content: flex-end;
+}
+.nav[data-v-5445dac8] {
+    font-size: 1.6rem;
+    max-width: 1380px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+/* Follower Badge */
+.follower-badge[data-v-5445dac8] {
+    position: absolute;
+    padding: -100px -100px;
+    margin: -10px 224px;
+}
+/* Avatar */
+.avatar[data-v-5445dac8] {
+    position: absolute;
+    margin: 60px 30px;
+}
+/* Custom text after name */
+.name[data-v-5445dac8]::after{
+    position: absolute;
+    margin: 32px 200px;
+}
+/* - Section headers at center */
+.section-header[data-v-45543a61] {
+    align-items: center;
+    justify-content: center;
+}
+/* Global */
+.overview[data-v-2cf72664] {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 0px;
+	background: rgba(17, 25, 35, 0.4);
+	box-shadow: 1px 20px 60px 10px rgba(0, 0, 0, 1);
+	border-radius: 3px;
+}
+.actions[data-v-5445dac8] {
+	padding: 15px 2px;
+}
+
+    /* ======= Sizes */
+
+/* navbar */
+.nav[data-v-4fbac4e1] {
+    height: 50px;
+}
+/* ...? */
+@media (max-width: 760px) {
+    .name[data-v-5445dac8] { font-size: 25px; width: 100px !important; }
+}
+.about .content-wrap[data-v-2cf72664] {
+	max-width: 554px;
+    max-height: auto;
+}
+
+    /* ======= Change the cursor */
+
+* { cursor:url(https://i.imgur.com/59drt8f.png), auto; }
+
+    /* ======= Roundifier */
+
+.history-day[data-v-514856af] { border-radius: 50%; }
+
+    /* ======= Hide (remove stuffs) */
+
+::-webkit-scrollbar,
+.footer[data-v-82d0a8cc],
+.desktop[data-v-aedb6876],
+.about[data-v-2cf72664] .markdown h4 a,
+div.header-wrap > div.nav-wrap > div > a:nth-child(7) {
+    display: none;
+}
+
+    /* ======= Image change */
+
+/*Banner*/
+.banner[data-v-5445dac8] { 
+    background: rgba(0,0,0,0);
+    background-image: url("") !important;
+    box-shadow: 0px 0px 0px transparent !important;
+}
+
+    /* ======= Custom Text */
+
+/* Name */
+a[href="name"] > div {
+
+}
+
+.nav[data-v-4fbac4e1]::after {
+    content: url("https://i.imgur.com/ODyoHci.png") !important;
+    transform: scale(0.4);
+    display: inline-block;
+    position: absolute;
+    background-color: rgba(255,255,255,0.02);
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    padding: 40px 40px;
+    margin: -22px 70px;
+    top:0;
+    z-index: -1;
+    box-shadow: 0px 10px 60px 20px rgba(0, 0, 0, 0.3);
+}
+
+/*Right after the name */
+.name[data-v-5445dac8]::after{
+    content: "onee-sama's lover";
+    /*background: rgba(var(--color-blue),.8);*/
+    border-radius: 30px;
+    color: rgb(var(--color-white));
+    padding: 5px 8px;
+    margin-bottom: 20px;
+    margin-right: 16px;
+    transition: 0.4s;
+    font-size: 1.5rem;
+    font-weight: bold;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-name: rainbow;
+    animation-timing-function: ease-in-out;
+}
+
+    /* ======= Color*/
+
+/* Misc */
+.list-editor-wrap .list-editor .body { background: rgb(31, 27, 31); }
+.donator-badge[data-v-568e7548] { background: #191e28; }
+
+/* Activity feed */
+.wrap[data-v-5e514b1e] { background: rgba(1,1,1,0.4); }
+.list.small .details[data-v-5e514b1e] { background: rgba(38, 1, 37, 0); }
+
+/*Stats (on the Overview page) */
+.footer[data-v-815ccddc],
+.progress[data-v-815ccddc] { background: rgba(1, 1, 1, 0); }
+.stats-wrap[data-v-2cf72664] { 
+    background: rgba(1,1,1, 0.4); 
+    border-radius: 10px; 
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.6); 
+    transition: 0.3s linear; 
+}
+.stats-wrap[data-v-2cf72664]:hover { 
+    background: rgba(1,1,1, 0.6);
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.8);
+}
+.stats-wrap[data-v-2cf72664]:hover .footer[data-v-815ccddc] {
+    width: auto;
+	height: auto;
+
+}
+
+/* Favourites */
+.favourites-wrap[data-v-45543a61] { background: rgba(19, 19, 19, 0); }
+/* Nav header */
+.nav-wrap[data-v-5445dac8] {
+    background: rgb(0,0,0,0);
+    max-width: 100%;
+}
+
+/* Anime/Manga list */
+.custom-list {
+    background: rgba(1, 1, 1, 0.5) !important;
+    box-shadow: 0 2px 20px rgba(1, 1, 1, 0.5) !important;
+    border-radius: 10px !important;
+    padding: 20px 20px;
+}
+.filter-group .active[data-v-128c06f0] { background: rgba(1, 1, 1, 0.5) !important; }
+.theme-switch[data-v-75ee63fe] { background: transparent !important; }
+
+/* Search Bar */
+.input[data-v-bcbe965e] {
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.3)
+}
+
+
+    /* ======= Fonts */
+
+/* - Name and category titles */
+.name[data-v-5445dac8] {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 0px; /*avec un 0 ça disparait*/
+    font-weight: 400 !important;
+    color: white;
+    /*animation: rainbowtext 10s linear infinite;*/
+}
+/* Titles (Activity and favourites categories) */ 
+.overview[data-v-2cf72664] .section-header {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: 400 !important;
+    color: white;
+}
+
+    /* ======== Shadows */
+
+/* activities entries */
+.activity-entry[data-v-5e514b1e],
+.el-input-group__append,
+.el-input-group__prepend,
+.el-input__inner,
+.el-textarea__inner {
+    -webkit-box-shadow: -8px 8px 20px 0px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: -8px 8px 20px 0px rgba(0, 0, 0, 0.45);
+    box-shadow: -8px 8px 20px 0px rgba(0, 0, 0, 0.45);
+}
+
+/* removes shadow on banner */
+.banner[data-v-5445dac8] {
+	box-shadow: inset 0px -10px 50px rgba(0,0,0,0.5);
+}
+
+
+    /* ======== Misc */
+
+/* Navbar modification*/
+/*.nav[data-v-4fbac4e1] {
+    max-width: 1000px;
+    margin: 20px 50%;
+    background-color: rgba(255,255,255,0.04) !important; 
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.5);
+    border-radius: 10px;
+}*/
+
+.wrap[data-v-4fbac4e1] {
+    max-width: 1000px;
+    position: relative;
+    margin: 1vw 0;
+    background-color: rgba(255,255,255,0.04) !important; 
+    padding: 0 60px;
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.5);
+    border-radius: 10px;
+}
+
+.nav[data-v-4fbac4e1] {
+    background-color: rgba(255,255,255,0) !important; 
+}
+
+
+
+
+
+
+
+
+/* ––––––– Variables –––––––– */
+
+/* Colors save :
+(32, 29, 29) -> grey/brown insane
+*/
+
+:root,
+.site-theme-dark,
+.site-theme-contrast {
+    --color-background: 24, 21, 24;
+    --color-foreground: 24, 21, 24;
+    --color-foreground-grey: 24, 21, 24;
+    --color-foreground-grey-dark: 6, 12, 19;
+    --color-foreground-blue: 15, 22, 31;
+    --color-foreground-blue-dark: 6, 12, 19;
+    --color-text: 159, 173, 189;
+    --color-text-light: 114, 138, 161;
+    --color-text-lighter: 133, 150, 165;
+    --color-shadow-blue: 0, 5, 15;
+    --color-background-1200: 251, 251, 251;
+    --color-background-1100: 240, 243, 246;
+    --color-background-1000: 221, 230, 238;
+    --color-background-900: 201, 215, 227;
+    --color-background-800: 173, 192, 210;
+    --color-background-700: 139, 160, 178;
+    --color-background-600: 116, 136, 153;
+    --color-background-500: 100, 115, 128;
+    --color-background-400: 81, 97, 112;
+    --color-background-300: 30, 42, 56;
+    --color-background-100: 6, 12, 19;
+    --color-background-200: 24, 21, 24;
+    --color-gray-1200: 251, 251, 251;
+    --color-gray-1100: 240, 243, 246;
+    --color-gray-1000: 221, 230, 238;
+    --color-gray-900: 201, 215, 227;
+    --color-gray-800: 173, 192, 210;
+    --color-gray-700: 139, 160, 178;
+    --color-gray-600: 116, 136, 153;
+    --color-gray-500: 100, 115, 128;
+    --color-gray-400: 81, 97, 112;
+    --color-gray-300: 30, 42, 56;
+    --color-gray-100: 21, 31, 46;
+    --color-gray-200: 11, 22, 34;
+    --kex-text: 255, 255, 255;
+    --kex-text-light: 155, 166, 175;
+    --color-text: var(--kex-text);
+    --color-text-light: var(--kex-text);
+}
+
+
+/* ––––––— Animations ––––––– */
+
+
+
+/* avatar background animation */
+@keyframes avatarbg {
+    0% {
+        background-position: 0 0;
+    }
+    
+    to {
+        background-position: 0 100%;
+    }
+}
+
+/* rainbow text */
+@keyframes rainbowtext {
+    0% {
+        color: rgba(0, 105, 255, .71)
+    }
+    
+    10% {
+        color: rgba(100, 0, 255, .71)
+    }
+    
+    20% {
+        color: rgba(255, 0, 139, .71)
+    }
+    
+    30% {
+        color: rgba(255, 0, 0, .71)
+    }
+    
+    40% {
+        color: rgba(255, 96, 0, .71)
+    }
+    
+    50% {
+        color: rgba(202, 255, 0, .71)
+    }
+    
+    60% {
+        color: rgba(0, 255, 139, .71)
+    }
+    
+    70% {
+        color: rgba(202, 255, 0, .71)
+    }
+    
+    80% {
+        color: rgba(255, 96, 0, .71)
+    }
+    
+    85% {
+        color: rgba(255, 0, 0, .71)
+    }
+    
+    90% {
+        color: rgba(255, 0, 139, .71)
+    }
+    
+    95% {
+        color: rgba(100, 0, 255, .71)
+    }
+    
+    to {
+        color: rgba(0, 105, 255, .71)
+    }
+}
+
+
+
+
+
+
+
+
+/* ––––––— DETAILS (no touch zone) ––––––– */
+
+/* fix favorites hover event */
+.favourites-wrap[data-v-45543a61] { overflow: visible; }
+
+/* Transparent panels */
+.overview[data-v-2cf72664] .content-wrap,
+.wrap[data-v-568e7548],
+.reply[data-v-0bf5aadf] {
+    background: transparent;
+}
+
+/* remove poppers */
+.dropdown[data-v-38edf8f8]::before,
+.dropdown[data-v-0bb70ffa]::before,
+.tooltip.animate-position[data-v-9401173e]::after {
+    content: none;
+}
+
+/* textboxes and md editors transparent */
+.el-input-group__append,
+.el-input-group__prepend,
+.el-input__inner,
+.el-textarea__inner,
+.markdown-editor,
+.el-input,
+.el-textarea {
+    background: transparent;
+}
+
+
+/* activity time hover background eliminated */
+.activity-entry>.wrap>.time:hover { background: transparent; }
+
+/* stats ontop of the profile */
+.overview[data-v-2cf72664] .content-wrap { border-radius: 0.2; }
+.progress .bar[data-v-815ccddc] { border-radius: 0.2; }
+
+/* fix for myself */
+.actions[data-v-5445dac8] { height: 75px; }
+
+/* remove 'using custom css' notice */
+.about[data-v-2cf72664] .markdown h5 a { display: none; }
+
+.about .content-wrap[data-v-2cf72664]:hover {
+	overflow: overlay;
+}
+
+
+
+
+
+
+
+
+/* ––––––— ARCHIVES ––––––– */
+
+
+
+
+
+
+/* =========== Bio */
+/*
+.about .content-wrap[data-v-2cf72664] { max-height: 600px; }
+.markdown[data-v-2cf72664]::before {
+    content: '';
+    font-style: italic;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    animation: BioFooter infinite 20s;
+}
+
+@keyframes BioFooter {
+    0% { content: 'Welcome to my profile!'; }
+    100% { content: url(https://cdn.discordapp.com/attachments/451467574690054145/742499831989272576/particle_purple.png); }
+}
+*/
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+
+/* =========== Scrollbar */
+/*
+*::-webkit-scrollbar {
+    width: 0.6em;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(176, 64, 249);
+    outline: 1px solid rgb(176, 64, 249);
+    border-radius: 10px;
+}
+*/
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+
+/*  =========== History days fill up */
+/*
+.history-day[data-v-514856af] {
+    background:#766196;
+}*/
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+/* Banner content 
+.banner-content[data-v-5445dac8] {
+    align-items: end;
+    justify-items: left;
+    flex-direction: column;
+}
+
+.banner-content[data-v-5445dac8] .avatar[data-v-5445dac8] {
+    position: relative;
+    top: 6vh;
+    right: 2vw;
+    
+    width: 140px;
+    max-width: 140px;
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+    background: rgb(35, 209, 209, 0.1);
+    background-size: 50% 50%;
+    background-image: linear-gradient(0deg, rgba(35, 209, 209, 0.3) 0%, rgba(35, 209, 209, 0.3) 10%, rgba(35, 158, 209, 0.3) 10%, rgba(35, 158, 209, 0.3) 20%, rgba(35, 209, 209, 0.3) 20%, rgba(35, 209, 209, 0.3) 30%, rgba(35, 158, 209, 0.3) 30%, rgba(35, 158, 209, 0.3) 40%, rgba(35, 209, 209, 0.3) 40%, rgba(35, 209, 209, 0.3) 50%, rgba(35, 158, 209, 0.3) 50%, rgba(35, 158, 209, 0.3) 60%, rgba(35, 209, 209, 0.3) 60%, rgba(35, 209, 209, 0.3) 70%, rgba(35, 158, 209, 0.3) 70%, rgba(35, 158, 209, 0.3) 80%, rgba(35, 209, 209, 0.3) 80%, rgba(35, 209, 209, 0.3) 90%, rgba(35, 158, 209, 0.3) 90%, rgba(35, 158, 209, 0.3) 100%, rgba(35, 209, 209, 0.3) 100%);
+    
+    border: rgba(35, 209, 209, 0.7) 1px solid;
+    
+    animation: avatarbg 5s linear infinite;
+}
+
+.banner-content[data-v-5445dac8] .name[data-v-5445dac8] {
+    position: relative;
+    top: 6vh;
+    right: 2vw;
+    
+    width: 140px;
+    padding: 22px 0;
+    
+    background-color: rgba(35, 209, 209, 0.3);
+    
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    border-right: rgba(35, 209, 209, 0.7) 1px solid;
+    border-left: rgba(35, 209, 209, 0.7) 1px solid;
+    border-bottom: rgba(35, 209, 209, 0.7) 1px solid;
+}*/
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+
+/*.nav-btn[data-v-5445dac8]::after {
+    content: ' (งツ)ว';
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.nav-btn[data-v-5445dac8]:hover::after {
+    animation: rainbowtext 5s linear infinite;
+}*/
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+/*
+AL Logo Replacement 
+.logo[data-v-4fbac4e1] {
+    max-height: 65px;
+    max-width: 300px;
+}
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+/*
+.logo img[data-v-4fbac4e1] {
+    height: 65px;
+    width: 300px;
+    margin-left: -40px;
+    content: url(https://files.weebsquad.moe/hUUk4NAW.svg);
+    transform: scale(0.8);
+    color: #23d1d1;
+}
+*/
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+/* ====== Buttons */
+
+/* - Cancel */
+/*
+.button.cancel[data-v-93c5960c] {
+    border: solid 1px white;
+    
+    background-size: 100% 200%;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.5) 50%);
+    color: white;
+    
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    
+    transition: 0.2s ease-out;
+}
+
+.button.cancel[data-v-93c5960c]:hover {
+    -webkit-box-shadow: 0px 0px 20px -2px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0px 0px 20px -2px rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 20px -2px rgba(255, 255, 255, 1);
+    background-position: 0 -100%;
+    color: black;
+}
+
+.button.cancel[data-v-93c5960c]:hover:active {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.5) 50%);
+    
+    -webkit-box-shadow: 0px 0px 20px 3px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 0px 20px 3px rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px 3px rgb(255, 255, 255);
+    background-position: 0 0;
+} */
+
+/* - Save (blue) */
+/*
+.button.save[data-v-93c5960c] {
+    border: solid 1px white;
+    
+    background-size: 100% 200%;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, rgba(var(--color-blue), 0.3) 50%, rgba(var(--color-blue), 0.5) 50%);
+    color: white;
+    
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    
+    transition: 0.2s ease-out;
+}
+
+.button.save[data-v-93c5960c]:hover {
+    -webkit-box-shadow: 0px 0px 20px -2px rgba(var(--color-blue), 1);
+    -moz-box-shadow: 0px 0px 20px -2px rgba(var(--color-blue), 1);
+    box-shadow: 0px 0px 20px -2px rgba(var(--color-blue), 1);
+    background-position: 0 -100%;
+    color: black;
+}
+
+.button.save[data-v-93c5960c]:hover:active {
+    background-image: linear-gradient(to bottom, rgba(var(--color-blue), 0.8) 50%, rgba(var(--color-blue), 0.5) 50%);
+    
+    -webkit-box-shadow: 0px 0px 20px 3px rgb(var(--color-blue));
+    -moz-box-shadow: 0px 0px 20px 3px rgb(var(--color-blue));
+    box-shadow: 0px 0px 20px 3px rgb(var(--color-blue));
+    background-position: 0 0;
+} */
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+/* Popu Effect Nav headers */
+
+/*.nav.container[data-v-5445dac8],
+.activity-entry[data-v-5e514b1e] { transition: 0.3s linear; }
+.nav.container[data-v-5445dac8]:hover,
+.activity-entry[data-v-5e514b1e]:hover { transform: scale(1.04); }*/
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+/*
+a[href="Coobie"] > div {
+    content: url(https://cdn.discordapp.com/attachments/451467574690054145/742499831989272576/particle_purple.png) !important;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    animation: BestGirlHawkins 10s infinite linear;
+    z-index: 696969;
+    pointer-events:none;
+    opacity: 0;
+}
+
+a[href="Coobie"] > div:nth-child(1) {
+    left: 5vw;
+       animation-delay: 1s;
+}
+
+a[href="Coobie"] > div:nth-child(2) {
+    left: 15vw;
+       animation-delay: 4s;
+}
+
+a[href="Coobie"] > div:nth-child(3) {
+    left: 25vw;
+       animation-delay: 3s;
+}
+
+a[href="Coobie"] > div:nth-child(4) {
+    left: 35vw;
+       animation-delay: 7s;
+}
+
+a[href="Coobie"] > div:nth-child(5) {
+    left: 45vw;
+       animation-delay: 6s;
+}
+
+a[href="Coobie"] > div:nth-child(6) {
+    left: 55vw;
+       animation-delay: 4s;
+}
+
+a[href="Coobie"] > div:nth-child(7) {
+    left: 65vw;
+       animation-delay: 9s;
+}
+
+a[href="Coobie"] > div:nth-child(8) {
+    left: 75vw;
+       animation-delay: 2s;
+}
+
+a[href="Coobie"] > div:nth-child(9) {
+    left: 85vw;
+       animation-delay: 11s;
+}
+
+a[href="Coobie"] > div:nth-child(10) {
+    left: 95vw;
+       animation-delay: 5s;
+}
+
+@-webkit-keyframes BestGirlHawkins {
+0% {
+    opacity: 1;
+    transform: translate(0, -10vh);
+    }
+100% {
+    opacity: 1;
+    transform: translate(0, 110vh);
+    }
+}*/
