@@ -1,227 +1,268 @@
 {
     "top": [
+
         { 
             "name": "Mai Sakurajima",
-            "image": "https://i.imgur.com/fTUMJHF.png",
-            "anilistLink": null
+            "image": "https://i.imgur.com/kYCwKcb.png",
+            "anilistLink": "https://anilist.co/character/127222/Mai-Sakurajima"
         },
         { 
             "name": "Shinobu Kochou",
-            "image": "https://i.imgur.com/ju6xGKb.png",
-            "anilistLink": null
+            "image": "https://i.imgur.com/XMJslGt.png",
+            "anilistLink": "https://anilist.co/character/136070/Shinobu-Kochou"
         },
         { 
             "name": "Chizuru Ichinose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b128106-1Gf64rjTWY8w.png",
-            "anilistLink": null
+            "image": "https://i.imgur.com/WgzyscZ.png",
+            "anilistLink": "https://anilist.co/character/128106/Chizuru-Ichinose"
         },
 
 
-        
+
         { 
-            "name": "Kaga Kouko",
-            "image": "https://i.imgur.com/9StlGRI.jpg",
-            "anilistLink": null
-        },
-        { 
-            "name": "Makise Kurisu",
-            "image": "https://i.imgur.com/wPq9Hjs.png",
-            "anilistLink": null
-        },
-        { 
-            "name": "Aqua",
-            "image": "https://i.imgur.com/bJrekui.png",
-            "anilistLink": null
-        },
-        { 
-            "name": "Mumei",
-            "image": "https://i.imgur.com/Pzt6AxV.jpg",
-            "anilistLink": null
-        },
-        { 
-            "name": "Tomo Kunagisa",
-            "image": "https://i.imgur.com/bNycHL0.png",
-            "anilistLink": null
-        },
-        { 
-            "name": "Rin Tohsaka",
-            "image": "https://i.imgur.com/uUuusNK.png",
-            "anilistLink": null
-        },
-        { 
-            "name": "Hitagi Senjougahara",
-            "image": "https://i.imgur.com/Jyg0yOj.jpg",
-            "anilistLink": null
-        },
-        { 
-            "name": "Ristarte",
-            "image": "https://i.imgur.com/XCoIfaC.png",
-            "anilistLink": null
-        },
-        { 
-            "name": "Hanabi Yasuraoka",
-            "image": "https://i.imgur.com/ebAQt4S.jpg",
-            "anilistLink": null
-        },
-        { 
-            "name": "Jeanne d'Arc",
-            "image": "https://i.imgur.com/IaI2fG0.png",
-            "anilistLink": null
-        },
-        { 
-            "name": "Faye Valentine",
-            "image": "https://i.imgur.com/ZDdqGQ9.png",
-            "anilistLink": null
+            "name": "Yuuko Kanoe",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b30273-0uMHhMCNNqTG.jpg",
+            "anilistLink": "https://anilist.co/character/30273/Yuuko-Kanoe"
         },
         { 
             "name": "Zero Two",
-            "image": "https://i.imgur.com/HyPQpZW.png",
-            "anilistLink": null
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b124381-pkTKi6HHNuVR.png",
+            "anilistLink": "https://anilist.co/character/124381/Zero-Two"
         },
         { 
-            "name": "Yuuko Kanoe",
-            "image": "https://i.imgur.com/HRXOgUS.jpg",
-            "anilistLink": null
+            "name": "Kaga Kouko",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b43669-rmNHl4FY1uHH.jpg",
+            "anilistLink": "https://anilist.co/character/43669/Kouko-Kaga"
         },
         { 
-            "name": "Raphtalia",
-            "image": "https://i.imgur.com/JY2wXmy.jpg",
-            "anilistLink": null
+            "name": "Holo",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7373-3fPjdv9pRhZj.jpg",
+            "anilistLink": "https://anilist.co/character/7373/Holo"
         },
         { 
-            "name": "Asuna",
-            "image": "https://i.imgur.com/JXXdjd5.png",
-            "anilistLink": null
+            "name": "Hitagi Senjougahara",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b22037-1Rjq4zpSrj1d.jpg",
+            "anilistLink": "https://anilist.co/character/22037/Hitagi-Senjougahara"
         },
         { 
-            "name": "Yumeko Jabami",
-            "image": "https://i.imgur.com/lMmwW03.png",
-            "anilistLink": null
+            "name": "Tomo Kunagisa",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b29594-IpUDrRBtT4KS.png",
+            "anilistLink": "https://anilist.co/character/29594/Tomo-Kunagisa"
         },
         { 
-            "name": "Yuzuki Aoba",
-            "image": "https://i.imgur.com/JKzWsDl.png",
-            "anilistLink": null
+            "name": "Kurisu Makise",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b34470-iPv1JxglAfpD.png",
+            "anilistLink": "https://anilist.co/character/34470/Kurisu-Makise"
         },
         { 
-            "name": "Akane Tendo",
-            "image": "https://i.imgur.com/wkv0yC1.jpg",
-            "anilistLink": null
+            "name": "Hanabi Yasuraoka",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/120989-qejEuWbbSJfk.jpg",
+            "anilistLink": "https://anilist.co/character/120989/Hanabi-Yasuraoka"
         },
-        { 
-            "name": "Sakura Matou",
-            "image": "https://i.imgur.com/t3pkoad.png",
-            "anilistLink": null
-        },
-        { 
-            "name": "Tsubasa Hanekawa",
-            "image": "https://media.discordapp.net/attachments/472313197836107780/620512268387483648/xUZFApj.png",
-            "anilistLink": null
-        },
-        { 
-            "name": "Nero Claudius",
-            "image": "https://i.imgur.com/deFxvGO.png",
-            "anilistLink": null
-        },
-        { 
-            "name": "Chitoge Kirisaki",
-            "image": "https://i.imgur.com/XuvN1r3.png",
-            "anilistLink": null
-        },
+
+
+
         { 
             "name": "Chika Fujiwara",
             "image": "https://i.imgur.com/E32WAmC.png",
-            "anilistLink": null
+            "anilistLink": ""
         },
         { 
             "name": "Kaori Miyazono",
-            "image": "https://i.imgur.com/0ap5ve6.png",
-            "anilistLink": null
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b69411-lxM0FRvWHqlv.png",
+            "anilistLink": "https://anilist.co/character/69411/Kaori-Miyazono"
         },
         { 
-            "name": "Nayuta Kani",
-            "image": "https://i.imgur.com/1eqlZj4.jpg",
-            "anilistLink": null
+            "name": "Yumeko Jabami",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b121889-iX35vtwiHUsz.jpg",
+            "anilistLink": "https://anilist.co/character/121889/Yumeko-Jabami"
         },
         { 
-            "name": "Shinobu Oshino",
-            "image": "https://i.imgur.com/RwMsDMH.png",
-            "anilistLink": null
+            "name": "Faye Valentine",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2-0Iszg6Izgt4p.png",
+            "anilistLink": "https://anilist.co/character/2/Faye-Valentine"
+        },
+        { 
+            "name": "Rin Tohsaka",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b498-ixowLU63C3tG.png",
+            "anilistLink": "https://anilist.co/character/498/Rin-Tohsaka"
+        },
+
+
+
+        { 
+            "name": "Nami",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b723-cmrNBqeiUhyn.png",
+            "anilistLink": "https://anilist.co/character/723/Nami"
+        },
+        { 
+            "name": "Akane Tendo",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/669.jpg",
+            "anilistLink": "https://anilist.co/character/669/Akane-Tendo"
         },
         { 
             "name": "Yoko Littner",
-            "image": "https://i.imgur.com/MrlSywC.png",
-            "anilistLink": null
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2063-7BKqQbrhtDD2.png",
+            "anilistLink": "https://anilist.co/character/2063/Yoko-Littner"
         },
         { 
-            "name": "Yotsuba Nakano",
-            "image": "https://i.imgur.com/AVHek1H.png",
-            "anilistLink": null
+            "name": "Jeanne d'Arc",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b67769-h3UKqGxwsIvV.png",
+            "anilistLink": "https://anilist.co/character/67769/Jeanne--dArc"
         },
         { 
-            "name": "Echidna",
-            "image": "https://i.imgur.com/QFhlAPD.png",
-            "anilistLink": null
+            "name": "Mumei",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89464-3QoSJw8XzDkH.jpg",
+            "anilistLink": "https://anilist.co/character/89464/Mumei"
         },
         { 
-            "name": "Akeno",
-            "image": "https://i.imgur.com/mWE0DS9.png",
-            "anilistLink": null
+            "name": "Aqua",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89362-ibkc0eoECaW1.png",
+            "anilistLink": "https://anilist.co/character/89362/Aqua"
         },
         { 
-            "name": "Togame",
-            "image": "https://i.imgur.com/285lqDC.png",
-            "anilistLink": null
+            "name": "Ristarte",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b141624-gTy9Jhhc9UAk.png",
+            "anilistLink": "https://anilist.co/character/141624/Ristarte"
         },
+
+
+
         { 
-            "name": "Touka Kirishima",
-            "image": "https://i.imgur.com/k7GUoHd.png",
-            "anilistLink": null
-        },
-        { 
-            "name": "Nanami Aoyama",
-            "image": "https://i.imgur.com/ZQ4vgOS.png",
-            "anilistLink": null
-        },
-        { 
-            "name": "Misaki Takasaki",
-            "image": "https://i.imgur.com/3BlhCZM.jpg",
-            "anilistLink": null
+            "name": "Tsubasa Hanekawa",
+            "image": "https://media.discordapp.net/attachments/472313197836107780/620512268387483648/xUZFApj.png",
+            "anilistLink": "https://anilist.co/character/22055/Tsubasa-Hanekawa"
         },
         { 
             "name": "Mitsuki Nase",
-            "image": "https://i.imgur.com/OkvRd2I.png",
-            "anilistLink": null
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/81753-Ax5zckjB7pRl.png",
+            "anilistLink": "https://anilist.co/character/81753/Mitsuki-Nase"
         },
         { 
-            "name": "Utaha Kasumigaoka",
-            "image": "https://i.imgur.com/zDHAzxr.jpg",
-            "anilistLink": null
+            "name": "Sakura Matou",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b500-L0BxYKqNKb0G.png",
+            "anilistLink": "https://anilist.co/character/500/Sakura-Matou"
         },
         { 
-            "name": "Mamimi Samejima",
-            "image": "https://i.imgur.com/Jk7xmwx.png",
-            "anilistLink": null
+            "name": "Yuzuki Aoba",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b162137-Us1snryKUq5p.png",
+            "anilistLink": "https://anilist.co/character/162137/Yuzuki-Aoba"
+        },
+
+
+
+        { 
+            "name": "Nero Claudius",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b51523-OYPKGtJqtzSU.png",
+            "anilistLink": "https://anilist.co/character/51523/Nero-Claudius"
         },
         { 
-            "name": "Inori Yuzuriha",
-            "image": "https://i.imgur.com/qhuVmlH.jpg",
-            "anilistLink": null
+            "name": "Raphtalia",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b88889-x4UKPPEmOx5q.jpg",
+            "anilistLink": "https://anilist.co/character/88889/Raphtalia"
+        },
+        { 
+            "name": "Touka Kirishima",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b87277-wLN5KYO9JYFN.jpg",
+            "anilistLink": "https://anilist.co/character/87277/Touka-Kirishima"
+        },
+        { 
+            "name": "Chitoge Kirisaki",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b48391-SuJot8cVKjHj.png",
+            "anilistLink": "https://anilist.co/character/48391/Chitoge-Kirisaki"
+        },
+        { 
+            "name": "Nayuta Kani",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b123939-BFOVsxkD3raD.jpg",
+            "anilistLink": "https://anilist.co/character/123939/Nayuta-Kani"
+        },
+        { 
+            "name": "Shinobu Oshino",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b23602-Z4MDNYcoAWZu.png",
+            "anilistLink": "https://anilist.co/character/23602/Shinobu-Oshino"
+        },
+
+
+
+        { 
+            "name": "Asuna",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36828-5qA8PW4PXtfw.png",
+            "anilistLink": "https://anilist.co/character/36828/Asuna-Yuuki"
+        },
+        { 
+            "name": "Nana Hiiragi",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b166102-FCkfbUT6Goda.png",
+            "anilistLink": "https://anilist.co/character/166102/Nana-Hiiragi"
         },
         { 
             "name": "Yume",
-            "image": "https://i.imgur.com/iqCQOnm.jpg",
-            "anilistLink": null
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89314-UBiHFpcHopxj.jpg",
+            "anilistLink": "https://anilist.co/character/89314/Yume"
+        },
+        { 
+            "name": "Misaki Takasaki",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/121845-rj4h68V23URm.jpg",
+            "anilistLink": "https://anilist.co/character/121845/Misaki-Takasaki"
+        },
+        { 
+            "name": "Nanami Aoyama",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b64167-qMxw0Sijwc18.png",
+            "anilistLink": "https://anilist.co/character/64167/Nanami-Aoyama"
+        },
+        { 
+            "name": "Akeno Himejima",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b51347-PHIYCkAYwxtf.png",
+            "anilistLink": "https://anilist.co/character/51347/Akeno-Himejima"
+        },
+
+
+
+
+
+        { 
+            "name": "Yotsuba Nakano",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b126374-MiOaRIGQj4fg.png",
+            "anilistLink": "https://anilist.co/character/126374/Yotsuba-Nakano"
+        },
+        { 
+            "name": "Togame",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b28523-edwT9MBnaIfm.png",
+            "anilistLink": "https://anilist.co/character/28523/Togame"
+        },
+        { 
+            "name": "Utaha Kasumigaoka",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/88750-9rp43wNB3NDn.jpg",
+            "anilistLink": "https://anilist.co/character/88750/Utaha-Kasumigaoka"
+        },
+        { 
+            "name": "Mamimi Samejima",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b632-JqWnOga0weWv.png",
+            "anilistLink": "https://anilist.co/character/632/Mamimi-Samejima"
+        },
+        { 
+            "name": "Inori Yuzuriha",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/n43280-Ndg1BqR7uhCL.jpg",
+            "anilistLink": "https://anilist.co/character/43280/Inori-Yuzuriha"
         },
         { 
             "name": "Sento Isuzu",
-            "image": "https://i.imgur.com/FmDZ9be.jpg",
-            "anilistLink": null
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b87970-zV7xD9c5GUVO.jpg",
+            "anilistLink": "https://anilist.co/character/87970/Isuzu-Sento"
         },
         { 
             "name": "Asuka Langley Soryu",
-            "image": "https://i.imgur.com/qolw26A.png",
-            "anilistLink": null
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b94-8hwISjwwB8zR.png",
+            "anilistLink": "https://anilist.co/character/94/Asuka-Langley-Soryu"
+        },
+        { 
+            "name": "Ippanjin",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b163011-RQ7w99tKB0ax.png",
+            "anilistLink": "https://anilist.co/character/163011/Ippanjin"
+        },
+        { 
+            "name": "Echidna",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/large/b129330-ZUtYw4n7N0uH.png",
+            "anilistLink": "https://anilist.co/character/129330/Echidna"
         }
         
     ]
