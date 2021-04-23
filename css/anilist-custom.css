@@ -385,6 +385,10 @@ a[href="name"] > div {
     transform: scale(1.08)
 }*/
 
+.result-col {
+    background: transparent !important;
+}
+
 /* Favourites */
 .favourites-wrap[data-v-45543a61] { background: rgba(19, 19, 19, 0); }
 
