@@ -3,7 +3,7 @@
 
 body {
     overflow: overlay;
-    background: linear-gradient(rgb(var(--color-background),0),rgb(var(--color-background),0)), url(https://imgur.com/vypgapV.png) center/100% fixed !important;
+    background: linear-gradient(rgb(var(--color-background),0.7),rgb(var(--color-background),1)), url(https://cdn.discordapp.com/attachments/554783275915280404/835109104594190356/65047754_p0.jpg) center/100% fixed !important;
 	/* background-image: url(https://imgur.com/vypgapV.png); */
 	box-shadow: inset 0 130px 100px rgba(0,0,0,0.4);
 }
@@ -28,6 +28,13 @@ body {
 
 ===== PICs =====
 - space : https://imgur.com/vypgapV.png
+- yukata girl : https://cdn.discordapp.com/attachments/554783275915280404/835109104594190356/65047754_p0.jpg
+- purple layed down girl : https://cdn.discordapp.com/attachments/554783275915280404/835109123593863228/72125571_p0.jpg
+- flower girl : https://cdn.discordapp.com/attachments/554783275915280404/835110815941656626/82910422_p0.jpg
+- swimming girl : https://cdn.discordapp.com/attachments/554783275915280404/835110696038432828/82808748_p0.jpg
+- laying down in the purple water girl : https://cdn.discordapp.com/attachments/554783275915280404/835110191027585064/68059255_p0_master1200.jpg
+- smoking girl : https://cdn.discordapp.com/attachments/554783275915280404/835110920442740786/83708089_p0.jpg
+- green rainy girl at the window : https://cdn.discordapp.com/attachments/554783275915280404/835110136946622475/68883968_p0_master1200.jpg
 - purple abstract : https://images.hdqwalls.com/download/abstract-purple-mixed-4k-c2-1920x1200.jpg
 - alone : https://cdn.discordapp.com/attachments/572856985469321245/622852405649735680/alone-3840x1920-minimal-4k-9105.jpg
 - paint : https://cdn.discordapp.com/attachments/568553846314369026/572173947509145600/Fond_Ecran_Peinture_A_Huile.png
@@ -76,9 +83,6 @@ img[src="https://i.imgur.com/Jjj9qSN.png"]:hover,
 img[src="https://i.imgur.com/PNK5107.png"]:hover {
     transform: scale(1.2)
 }
-
-
-
 
 
 
@@ -365,7 +369,7 @@ a[href="name"] > div {
 .reply[data-v-7ce9ffb8] { background: rgba(1,1,1,0.3); border-radius: 10px; }
 
 /* Activity feed */
-.wrap[²data-v-64116ff5] { background: rgba(1,1,1,0.3); }
+.wrap[data-v-64116ff5] { background: rgba(1,1,1,0.3); }
 .list.small .details[data-v-64116ff5] { background: rgba(38, 1, 37, 0); }
 
 /*Stats (on the Overview page) */
@@ -377,9 +381,9 @@ a[href="name"] > div {
     box-shadow: 5px 5px 20px rgba(0,0,0,0.6); 
     transition: 0.3s linear; 
 }
-.stats-wrap[data-v-815ccddc]:hover { 
+/*.stats-wrap[data-v-815ccddc]:hover { 
     transform: scale(1.08)
-}
+}*/
 
 /* Favourites */
 .favourites-wrap[data-v-45543a61] { background: rgba(19, 19, 19, 0); }
@@ -483,6 +487,66 @@ a[href="name"] > div {
     
 }
 ::-webkit-scrollbar-track {background-color: #05070e;}
+
+
+    /* ======== Stats */
+
+.stats-wrap[data-v-815ccddc] {
+    display: grid;
+    grid-auto-flow: row;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto;
+    padding: 20px 40px;
+    text-align: left;
+}
+
+.stat[data-v-815ccddc]:nth-child(1) {
+    grid-row-start: span 2;
+}
+
+.stat:nth-child(1) .value[data-v-815ccddc] {
+    font-size: 5.5rem;
+}
+
+.stat .value[data-v-815ccddc] {
+    font-size: 2rem;
+    padding-bottom: 0px;
+}
+
+.stat .label[data-v-815ccddc] {
+    font-size: 1.2rem;
+}
+
+.list-stats[data-v-815ccddc]:nth-child(1) .stat[data-v-815ccddc]:nth-child(1) .label:before {
+    content: '';
+    mask: url(https://criolaservice.by/AL-css/svg/tv.svg) no-repeat 50% 50%;
+    -webkit-mask: url(https://criolaservice.by/AL-css/svg/tv.svg) no-repeat 50% 50%;
+    mask-size: cover;
+    -webkit-mask-size: cover;
+    width: 19px;
+    height: 16px;
+    margin-right: 5px;
+    background-color: rgba(var(--color-text-light));
+}
+
+.list-stats[data-v-815ccddc]:nth-child(2) .stat[data-v-815ccddc]:nth-child(1) .label,
+.list-stats[data-v-815ccddc]:nth-child(1) .stat[data-v-815ccddc]:nth-child(1) .label {
+    display: flex;
+    align-items: center;
+    color: rgb(var(--color-text-light));
+}
+
+.list-stats[data-v-815ccddc]:nth-child(2) .stat[data-v-815ccddc]:nth-child(1) .label:before {
+    content: '';
+    mask: url(https://criolaservice.by/AL-css/svg/book.svg) no-repeat 50% 50%;
+    -webkit-mask: url(https://criolaservice.by/AL-css/svg/book.svg) no-repeat 50% 50%;
+    mask-size: cover;
+    -webkit-mask-size: cover;
+    width: 19px;
+    height: 21px;
+    margin-right: 5px;
+    background-color: rgba(var(--color-text-light));
+}
 
 
 
